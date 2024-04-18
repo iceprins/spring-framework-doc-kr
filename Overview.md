@@ -1,6 +1,6 @@
 # 스프링 프레임워크 개요
 
-스프링은 자바 엔터프라이즈 애플리케이션을 쉽게 만들어 준다. JVM의 대체 언어로서 Groovy와 Kotlin을 지원하고 애플리케이션의 필요에 따라 다양한 종류의 아키텍처를 만들 수 있는 유연성과 함께 엔터프라이즈 환경에서 자바 언어를 수용하는 데 필요한 모든 것을 제공한다. Spring Framework 6.0에서 Spring에는 Java 17+가 필요하다.
+스프링은 자바 엔터프라이즈 애플리케이션을 쉽게 만들어 준다. JVM의 대체 언어로서 그루비와 코틀린을 지원하고 애플리케이션의 필요에 따라 다양한 종류의 아키텍처를 만들 수 있는 유연성과 함께 엔터프라이즈 환경에서 자바 언어를 수용하는 데 필요한 모든 것을 제공한다. 스프링 프레임워크 6.0에서 스프링에는 자바 17+가 필요하다.
 
 스프링은 광범위한 애플리케이션 시나리오를 지원한다. 대기업에서는 애플리케이션이 오랫동안 존재하기 때문에 업그레이드 주기가 개발자 통제 범위를 벗어난 JDK 및 애플리케이션 서버에서 실행되어야 하는 경우가 많다. 다른 애플리케이션은 서버가 내장된 상태에서 단일 jar로 실행될 수도 있고, 클라우드 환경에서 실행될 수도 있다. 그러나 다른 애플리케이션은 서버가 필요하지 않은 독립 실행형 애플리케이션(예: 배치 또는 통합 워크로드)일 수도 있다.
 
@@ -16,13 +16,13 @@
 
 ## 스프링과 스프링 프레임워크의 역사
 
-초기 J2EE 사양의 복잡성에 대한 대응책으로 2003년에 Spring이 등장했다. 일부 사람들은 Java EE와 오늘날의 후속 제품인 Jakarta EE가 스프링과 경쟁하고 있다고 생각하지만, 실제로는 보완적이다. 스프링 프로그래밍 모델은 Jakarta EE 플랫폼 사양을 수용하는 것이 아니라, 기존 EE 생태계에서 엄선된 개별 사양과 통합된다.
+초기 J2EE 사양의 복잡성에 대한 대응책으로 2003년에 스프링이 등장했다. 일부 사람들은 자바 EE와 오늘날의 후속 제품인 자카르타 EE가 스프링과 경쟁하고 있다고 생각하지만, 실제로는 보완적이다. 스프링 프로그래밍 모델은 자카르타 EE 플랫폼 사양을 수용하는 것이 아니라, 기존 EE 생태계에서 엄선된 개별 사양과 통합된다.
 
-- Servlet API ([JSR 340](https://www.jcp.org/en/jsr/detail?id=340))
-- WebSocket API ([JSR 356](https://www.jcp.org/en/jsr/detail?id=356))
-- Concurrency Utilities ([JSR 236](https://www.jcp.org/en/jsr/detail?id=236))
-- JSON Binding API ([JSR 367](https://www.jcp.org/en/jsr/detail?id=367))
-- Bean Validation ([JSR 303](https://www.jcp.org/en/jsr/detail?id=303))
+- 서블릿 API ([JSR 340](https://www.jcp.org/en/jsr/detail?id=340))
+- 웹소켓 API ([JSR 356](https://www.jcp.org/en/jsr/detail?id=356))
+- 동시성 유틸리티 ([JSR 236](https://www.jcp.org/en/jsr/detail?id=236))
+- JSON 바인딩 API ([JSR 367](https://www.jcp.org/en/jsr/detail?id=367))
+- 빈 검증 ([JSR 303](https://www.jcp.org/en/jsr/detail?id=303))
 - JPA ([JSR 338](https://www.jcp.org/en/jsr/detail?id=338))
 - JMS ([JSR 914](https://www.jcp.org/en/jsr/detail?id=914))
 - 필요한 경우 트랜잭션 조정을 위한 JTA/JCA 설정도 포함
